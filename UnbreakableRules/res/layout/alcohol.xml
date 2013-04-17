@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<ScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_weight="1">
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Anti-alcohol, smoking and other bad practices related rule: \n
+
+a.  The   following   bad   habits   and   illegal   acts   are   strictly   prohibited   in   the campus:\n 
+     i.  Consumption of alcoholic drinks (Parents and students must note that   prohibition   is   enforced   in   the   state   of   Gujarat.   Therefore anybody       is  reported    for   breaking     this   law    will   face   the appropriate consequences under the law of the land also.)\n 
+     ii.  Smoking \n 
+     iii. usages of any form of intoxicants \n 
+     iv.   any form of gambling. \n
+b.  Any person found guilty of the same, would face strict disciplinary action (minimum is expulsion from the Halls of Residence).\n 
+c.  The entire campus is declared as a ‘No smoking zone’ for students. 
+\n 
+d.  In case a student is found smoking1 on the campus, (s)he would be given a 
+              	  warning   and   counseled   against   repeating   the   act.   If   the   same   student   is 
+                  found to be repeating the same act, then (s)he would be charged a fine of 
+                  Rs. 500 (rupees five hundred only) and his/her parents/guardians would be 
+                  informed about the same. Any further repeat of the same would result in 
+                  the expulsion of the resident from the HoR and/or reporting the matter to 
+                  the Disciplinary Action Committee (DAC). \n"
+                  
+                  android:maxLines = "300"
+
+android:scrollbars = "vertical"
+                  />
+</ScrollView>
+</LinearLayout>

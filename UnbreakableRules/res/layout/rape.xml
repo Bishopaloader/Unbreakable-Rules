@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<ScrollView 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"    
+	>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+		RAPE Categories \n
+		1. Rape of a woman who is under twelve years of age [Sec.376 (2) (f)]
+\n
+Punishment
+\n
+Rigorous imprisonment for a term which shall not be less than ten years but which may be for life and shall also be liable to fine: Provided that the court may, for adequate and special reasons to be mentioned in the judgment, impose a sentence of imprisonment of either description for a term of less than ten years.
+
+Issues
+\n
+Unfortunately other than the increased minimum punishment from 7 years to 10 years, no other special concession is given to Child Rape given the increased trauma for the girl. Since even the minimum punishment can be reduced by the judges, much needs to be done in this area.
+\n
+2. Rape of a woman, knowing her to be pregnant (Sec.376 Subsection 2- e)
+\n
+Punishment
+\n
+Rigorous imprisonment for a term which shall not be less than ten years but which may be for life and shall also be liable to fine: Provided that the court may, for adequate and special reasons to be mentioned in the judgment, impose a sentence of imprisonment of either description for a term of less than ten years.
+\n
+Exemption from burden of proof if the victim states in court that she did not consent, then the court shall presume that she did not consent and the burden of proving consent shall shift to the accused
+\n
+3. Gang Rape ( Sec.376 Subsection 2- g)
+\n
+“Where a woman is raped by one or more in a group of persons acting in furtherance of their common intention, each of the persons shall be deemed to have committed gang rape within the meaning of this sub-section. ”
+
+Thus even if five men force a women into having sexual intercourse with only one of them, the remaining four will also be considered to have committed rape under this law. Punishment
+
+Rigorous imprisonment for a term which shall not be less than ten years but which may be for life and shall also be liable to fine: Provided that the court may, for adequate and special reasons to be mentioned in the judgment, impose a sentence of imprisonment of either description for a term of less than ten years.
+\n
+Exemption from burden of proof :
+
+If the victim states in court that she did not consent, then the court shall presume that she did not consent and the burden of proving consent shall shift to the accused.
+\n
+4. Custodial Rape: (Sec.376 Subsection 2 a, b, c , d):
+\n
+Rape committed on a woman in their or their subordinate’s custody by
+\n
+a) police officer
+\n
+(i) within the limits of the police station to which he is appointed; or
+\n
+(ii) in the premises of any station house whether or not situated in the police station to, which he is appointed; or
+\n
+(iii) on a woman in his custody or in the custody of a police officer subordinate to him;
+\n
+b) public servant
+\n
+c) management or the staff of a jail, remand home or other place of custody or a women’s or children’s institution
+\n
+d) management or on the staff of a hospital
+\n
+Punishment
+\n
+Rigorous imprisonment for a term which shall not be less than ten years but which may be for life and shall also be liable to fine  rovided that the court.
+" 
+		
+		android:maxLines = "300"
+		android:scrollbars = "vertical"
+        
+     />
+</ScrollView>
+</LinearLayout>

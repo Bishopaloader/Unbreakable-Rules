@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/secondphase"
+    >
+    
+    <Button
+        android:id="@+id/rules"
+        android:layout_width="183dp"
+        android:layout_height="100dp"
+        android:layout_margin="60sp"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/buttonbg"
+        android:gravity="center"
+        android:lines="2"
+        android:text="Rules \n Regulations" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="200sp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/rules"
+        android:layout_margin="60sp"
+        android:layout_weight="0.02"
+        android:background="@drawable/buttonbg"
+        android:lines="2"
+        android:text="Send SMS \ninstantly to Incharge" />
+
+</LinearLayout>

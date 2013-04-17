@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ragging      of  any   nature    is  strictly   prohibited.  Ragging     is  a  punishable offence under Central Government Act. Violation of this rule will attract any  one  or   more  of   following  possible   punishments   depending  upon   the seriousness of the issue: 
+        \n
+   i.  One year suspension from the institute 
+\n
+  ii.  A fine up to Rs. 2500/- 
+\n
+  iii. Expulsion from the institute. 
+\n
+  iv.  Suspension from the institute or classes for a limited period 
+\n
+  v.   Fine with a public apology. 
+\n
+  vi.  Withholding scholarships or other benefits. 
+\n
+ vii.  Debarring from representation in events. 
+\n
+viii.  Withholding results. 
+\n
+  ix.  Suspension or expulsion from the Halls of Residence. 
+  \n      
+        
+        
+        
+        
+        " 
+        
+        android:maxLines = "300"
+		android:scrollbars = "vertical"
+        
+        
+        />
+</ScrollView>
+</LinearLayout>

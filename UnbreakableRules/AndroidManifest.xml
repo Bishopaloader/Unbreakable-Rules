@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unbreakablerules"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.unbreakablerules.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.unbreakablerules.Secondphase"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.SECONDPHASE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		
+        <activity
+            android:name="com.example.unbreakablerules.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		
+        <activity
+            android:name="com.example.unbreakablerules.Alcohol"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.ALCOHOL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		
+        <activity
+            android:name="com.example.unbreakablerules.Ragging"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.RAGGING" />
+				<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+		<activity
+            android:name="com.example.unbreakablerules.Rape"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.RAPE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+		<activity
+            android:name="com.example.unbreakablerules.Traffic"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.TRAFFIC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+				<activity
+            android:name="com.example.unbreakablerules.SendSms"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.SENDSMS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>		
+		
+								<activity
+            android:name="com.example.unbreakablerules.SendSms2"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.SENDSMS2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>		
+										<activity
+            android:name="com.example.unbreakablerules.SendSms3"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.SENDSMS3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        										<activity
+            android:name="com.example.unbreakablerules.SendSms4"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.SENDSMS4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>	
+        										<activity
+            android:name="com.example.unbreakablerules.SendSms5"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.SENDSMS5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>	
+        										<activity
+            android:name="com.example.unbreakablerules.SendSms6"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.SENDSMS6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>	
+        										<activity
+            android:name="com.example.unbreakablerules.SendSms7"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.SENDSMS7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>	
+        										<activity
+            android:name="com.example.unbreakablerules.SendSms8"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            
+            >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.SENDSMS8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>	
+        										<activity
+            android:name="com.example.unbreakablerules.SendSms9"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.SENDSMS9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>		
+								
+        <activity
+            android:name="com.example.unbreakablerules.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.unbreakablerules.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

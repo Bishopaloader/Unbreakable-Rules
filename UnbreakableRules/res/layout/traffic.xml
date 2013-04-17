@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<ScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:layout_weight="1"    
+    >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+        Traffic Penalties in India\n
+1. No Overtaking	 6RR/177MVA	Rs. 100 
+\n
+2. Driver without Uniform	 DMVR7/177MVA	Rs. 100
+\n
+3. Smoking by Driver/Conductor	 DMVR11.2/177MVA	Rs. 100
+\n
+4. Misbehavior by TSR/TAXI Driver	 DMVR11.3/177MVA	Rs. 100
+\n
+5. Overcharging By TSR \Taxi	 DMVR11.8/177MVA	Rs. 100
+\n
+6. Refusal by TSR/TAXI Driver	 DMVR11.9/177MVA	Rs. 100
+\n
+7. Park\Wait in Bus lane\Bus Stand	 RRR15(2)/177MVA	Rs. 100
+\n
+8. Open Dala	 RRR16.1\177MVA	Rs. 100
+\n
+9. One way Violation	 RRR17(1)/177MVA	Rs. 100
+\n
+10. Violation of Yellow line	 18(||)RRR119/177MVA	Rs. 100
+\n
+11. Yellow line Violation	 RRR18.2MVA	Rs. 100
+\n
+12. IN Case of Bus/HTVs	 62/192A MVA	To Court
+\n
+13. Multi-toned Horn	RRR 21.4/177MVA	Rs. 100
+\n
+14. Conductor without Badge	 DMVR22(1)/177MVA	Rs. 100
+\n
+15. Conductor without Uniform	DMVR 29(1/)/177 MVA	Rs. 100
+\n
+16. Carrying High/Long Load	RRR 29/177 MVA	Rs. 100
+\n
+17. W/O Registration Certificate	 RRR32/177 MVA	Rs. 100
+\n
+18. Without Knowledge of Traffic rules 	 RRR33/177 MVA	Rs. 100
+\n
+19. Driving With defective number plate	 CMVR50/177 MVA	Rs. 100
+\n
+20. Not displaying number plate	 CMVR50/177 MVA	Rs. 100
+\n
+21. Without fitness	 56/192 MVA	Rs. 2000
+\n
+22. Overtaking to other commercial vehicle in running condition  	 66/192 A MVA	To Court
+\n
+23. picking passenger without stand	 66/192A MVA	To Court
+\n
+24. Running in first Line (Not in bus lane) 	 66/192A MVA	To Court
+\n
+25. Without speed Governor	 66/192A MVA	To Court
+\n
+26. School bus without school board	 66/192 MVA	To Court
+\n
+27. Without Permit	 66(1)/192A MVA	To Court
+\n
+28. Advertisement on vehicle 	DMVR 71.2/177MVA	Rs. 100
+\n
+29. Cruelty with animal 	DMVR 80/177MVA	Rs. 100
+\n
+30. Caring passenger in goods vehicle	DMVR 84(2)/177MVA	Rs. 100
+\n
+31. Caring goods  in passenger  vehicle	DMVR 84(4)/177MVA	Rs. 100
+\n
+32. Without log book	CMVR 85(10)177 MV	Rs. 100
+\n
+33. Smoking in the vehicles	DMVR 86.1(5)/177MVA	Rs. 100
+\n
+34. Blowing of pressure horn 	DMVR 96(1)/177MVA	Rs. 100
+\n
+35. Using horn in no honking zone	DMVR 96(1)/177MVA	Rs. 100
+\n
+36. Use of colored light in motor	DMVR 97(2)/177MVA	Rs. 100
+\n
+37.	W/O PUC certificate	 99(1)177MVA	Rs. 100
+\n
+38. Excess smoke	DMVR 99(1) A /177MVA	Rs. 100
+\n
+39. Tinted Glass	CMVR 100.2/177MVA	Rs. 100
+\n
+40. Without Wiper	CMVR 101/177MVA	Rs. 100
+\n
+41. Playing Music	DMVR 102/177MVA	Rs. 100
+\n
+42. Driving Without light after sun set	CMVR 105/177MVA	Rs. 100
+\n
+43. Using siren	CMVR 107/177MVA	Rs. 100
+\n
+44. Using High Beam	 1124AandC 177MVA	Rs. 100
+\n
+45. Over Speed	 112/183(1)MVA	Rs. 400
+\n
+46. Abetment of over speeding	 112/183(2)MVA	Rs. 300
+\n
+47. Violation of stop line	 113(1)/177 MVA	Rs. 100
+\n
+48. Over Weight	 113/194 MVA	Rs. 2000
+\n
+49. Violation of restriction of trip	 115/194 MVA	Rs. 2000
+\n
+50. Red light Jumping	 119/177 MVA	Rs. 100
+\n
+51. Violation of mandatory signs ( one way no right turn no left turn no horn )	 119/177 MVA	Rs. 100
+\n
+52. Driving without horn	CMVR 139.1/177 MVA	Rs. 100
+\n
+53. Driving left hand drive without indicator	 120/177 MVA	Rs. 100
+\n
+54. Driving without silencer	CMVR 120/177 MVA	Rs. 100
+\n
+55. improper and obstructive parking 	 122/177 MVA	Rs. 100
+\n
+56. Traveling running board (Driver)	 128(1)/177 MVA	Rs. 100
+\n
+57. Traveling running board (passenger)	 128(2)/177 MVA	Rs. 100
+\n
+58. Traveling without pass / ticket	 124/177 MVA	Rs. 100
+\n
+59. Obstructive driving (Extra passenger on driver seat)	 126/177 MVA	Rs. 100
+\n
+60. Triple ridding	 122/177 MVA	Rs. 100
+\n
+61. Driving without helmet (Rider or Pillow Rider)	 129/177 MVA	Rs. 100
+\n
+62. Conductor without license	 129/182 MVA	Rs. 100
+\n
+63. Disobeying lawful direction 	 132/179 MVA	Rs. 500
+\n
+64. Not using seat belt	CMVR 138(3)/177 MVA	Rs. 100
+\n
+65. W/O insurance	 146/196 MVA	Rs. 1000
+\n
+66. Misbehavior with police officer	179 MVA	Rs. 1000
+\n
+67. Driving dangerously	184 MVA	Rs. 1000
+\n
+68. Using mobile phone while driving	184 MVA	Rs. 1000
+\n
+69. Drunken driving ( breathe test) is possible  evidence u/s 203 	185 MVA	To Court
+\n
+70. Using vehicle without registration or permits (for commercial vehicle) 	192 A MVA	To Court
+\n
+71. Driving without licence	 3/181 MVA	Rs. 500
+\n
+72. Driving by minor	 4/181 MVA	Rs. 500
+\n
+73. Allowing unauthorized person to drive	 5/181 MVA	Rs. 1000
+\n
+" 
+        android:scrollbars = "vertical"
+        android:maxLines="300"
+        
+        
+        />
+</ScrollView>
+</LinearLayout>
